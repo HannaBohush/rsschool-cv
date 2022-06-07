@@ -21,7 +21,7 @@ I'm 23 years old and my goal is to become a professional front-end developer. I 
 * JavaScript;
 * Git, GitHub.
 ## Projects:
-* CV project
+* [CV project](https://github.com/HannaBohush/rsschool-cv)
 ## Code examples:
 ```javascript
 function multiply(a, b){
