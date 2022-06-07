@@ -23,6 +23,11 @@ I'm 23 years old and my goal is to become a professional front-end developer. I 
 ## Projects:
 * CV project
 ## Code examples:
+```javascript
+function multiply(a, b){
+    return  a * b
+}
+```
 ## Experience:
 + Mar 2020- Mar 2022 - leading accountant in an insurance company;
 + Jul 2019- Feb 2020 - insurance agent.
