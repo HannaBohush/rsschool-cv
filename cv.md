@@ -2,7 +2,7 @@
 ## Contacts:
 
   ***Source*** | ***Links***
----------| :--------------------------------------:
+--------- | --------------------------------------
    Phone | +995 555-69-59-35
    Email | annbogush198@gmail.com
    VK | [@annanzzie](https://vk.com/annanzzie)
