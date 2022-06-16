@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* header and navigation*/
+header {
+    height: 80px;
+    background-color: rgb(100, 32, 0);
+}
+
+nav {
+    height: 100%;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(249, 253, 200);
+}
+
+
+
+/* main block */
+main{
+    background-color: rgb(236, 224, 167);
+    height: fit-content;
+}
+
+.two-column-layout {
+    display: flex;
+    height: 100%;
+}
+
+/* left column of main*/
+
+.left-column {
+    width: 40%;
+    height: 100%;
+}
+
+.my-photo {
+    width: 100%;
+    height: auto;
+}
+
+.block-layout {
+    margin: 20px;
+
+}
+
+.contacts-title {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.contacts-item {
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    background-color: rgb(253, 236, 211);
+    border: 1px dashed ;
+}
+
+.contacts-item>a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.contacts-item>img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+
+/* right column of main*/
+
+.right-column {
+    width: 60%;
+    height: fit-content;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.checked>ul>li {
+    list-style: url('./images/checked-icon.svg');
+}
+
+
+.block-layout-title{
+    font-size: 35px;
+    font-style: italic;
+    background-color: rgb(255, 192, 63);
+}
+.name-logo {
+    font-size: 50px;
+}
+.block-layout-description {
+    font-size: 30px;
+    font-weight: normal;
+}
+.code {
+    background-color: rgb(239, 255, 73);
+    padding-left: 15px;
+    text-align: left;
+    white-space: pre-line;
+    font-size: 16px;
+}
+.project-link {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    background-color: #a34800;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 25px;
+    font-size: 18px;
+}
+
+.course-logo {
+    height: 50px;
+}
+
+footer>p{
+    color: #fff;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+}
+
+.github>img {
+    height: 30px;
+    margin: 0 10px;
+}
+.github>a{
+    text-decoration: none;
+    color: #fff;
+}
